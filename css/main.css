@@ -1,0 +1,44 @@
+div {
+  width: 300px;
+  margin: 20px auto;
+  position: relative;
+}
+input {
+  padding: 15px;
+  border: none;
+  border-bottom: 2px solid #d7d7d7;
+  width: 100%;
+  background-color: #fbfbfb;
+}
+input:focus {
+  outline: none;
+}
+.progress {
+  background-color: #03a9f4;
+  display: block;
+  height: 5px;
+  position: relative;
+  top: -2px;
+  transition: 0.5s;
+  width: 0;
+}
+
+.count {
+  display: block;
+  text-align: right;
+  padding: 10px;
+  font-size: 12px;
+}
+.zero {
+  font-weight: bold;
+  color: red;
+}
+.progressred {
+    background-color: red;
+    display: block;
+    height: 5px;
+    position: relative;
+    top: -2px;
+    transition: 0.5s;
+    width: 0;
+  }
